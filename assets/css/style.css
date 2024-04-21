@@ -649,6 +649,71 @@ section {
   background-color: #ffb727;
 }
 
+
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+
+#services {
+  background: #f7f7f7;
+  position: relative;
+  padding-bottom: 25px;
+  padding-top: 40px;
+  
+}
+.services-block {
+  text-align: left; /* Set default alignment for text */
+}
+
+.services-block i,
+.services-block span {
+  display: block;
+  margin: 0 auto; /* Center the icon and the title */
+  text-align: center;
+}
+
+.services-block span {
+  font-weight: bold; 
+  margin: 10px 0;
+  position: relative;
+  font-size: 13px;
+  color: #292929;
+  letter-spacing: 0.1em;
+  /* font-weight: 600; */
+  text-transform: uppercase;
+  display: block;
+}
+
+.services-block .separator {
+  margin: 0;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.services-block i {
+  font-size: 44px;
+  color: #b8a07e;
+  line-height: 44px;
+}
+
+.services-slider .swiper-pagination {
+  margin-top: 52px;
+  position: relative;
+}
+
+.services-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #b8a07e;
+  margin: 0 7px;
+}
+
+.services-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #b8a07e;
+}
+
 /*--------------------------------------------------------------
 # My Resume
 --------------------------------------------------------------*/
