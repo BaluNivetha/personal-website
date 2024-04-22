@@ -693,7 +693,7 @@ section {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #ffb727;
   line-height: 44px;
 }
 
@@ -707,12 +707,12 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #b8a07e;
+  border: 1px solid #eca006;
   margin: 0 7px;
 }
 
 .services-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #b8a07e;
+  background-color: #ffb727;
 }
 
 /*--------------------------------------------------------------
