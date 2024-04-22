@@ -357,7 +357,7 @@ h6 {
   color: #ffb727;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #f3a200;
 }
 
 
@@ -992,66 +992,95 @@ section {
   padding: 0;
 }
 
-
 /*--------------------------------------------------------------
-# Contact Me
+# Contact
 --------------------------------------------------------------*/
-.contact .info-box {
-  color: #444444;
-  text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 20px 0 30px 0;
+.contact {
+  padding-bottom: 130px;
 }
 
-.contact .info-box i.bx {
-  font-size: 24px;
-  color: #ffb727;
-  border-radius: 50%;
-  padding: 15px;
-  background: #fff6e4;
+.contact .info {
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
-.contact .info-box h3 {
+.contact .info i {
   font-size: 20px;
-  color: #777777;
-  font-weight: 700;
-  margin: 10px 0;
-}
-
-.contact .info-box p {
-  padding: 0;
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.contact .social-links {
-  margin-top: 15px;
+  color: #f3a200;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #fff6e4;
   display: flex;
   justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
 }
 
-.contact .social-links a {
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #050d18;
+}
+
+.contact .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #444444;
+}
+
+.contact .info .email p {
+  padding-top: 5px;
+}
+
+.contact .info .social-links {
+  padding-left: 60px;
+}
+
+.contact .info .social-links a {
   font-size: 18px;
   display: inline-block;
-  color: #687683;
+  background: #333;
+  color: #fff;
   line-height: 1;
-  margin: 0 8px;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
   transition: 0.3s;
-  padding: 14px;
-  border-radius: 50px;
-  border: 1px solid #dde1e4;
+  margin-right: 10px;
 }
 
-.contact .social-links a:hover {
+.contact .info .social-links a:hover {
+  background: #ffb727;
   color: #fff;
   border-color: #ffb727;
-  background: #ffb727;
+
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #f3a200;
+  color: #fff;
 }
 
 .contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 27px;
+  width: 100%;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
 }
 
 .contact .php-email-form .validate {
@@ -1103,6 +1132,14 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
+.contact .php-email-form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact .php-email-form label {
+  padding-bottom: 8px;
+}
+
 .contact .php-email-form input,
 .contact .php-email-form textarea {
   border-radius: 0;
@@ -1110,26 +1147,27 @@ section {
   font-size: 14px;
 }
 
-.contact .php-email-form input::focus,
-.contact .php-email-form textarea::focus {
-  background-color: #ffb727;
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+  border-color: #f3a200;
+  outline: none;
 }
 
 .contact .php-email-form input {
-  padding: 10px 15px;
+  height: 44px;
 }
 
 .contact .php-email-form textarea {
-  padding: 12px 15px;
+  padding: 10px 15px;
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #ffb727;
+  background: #f3a200;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
