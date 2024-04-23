@@ -1,27 +1,26 @@
-# personal-website
-Sources:
+# Personal Website
 
-Main Template:
-Template Name: Laura
-Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+## Sources:
 
-Also referred and adapted certain features from other templates - iPortfolio (Hero section) and Folio (Services section)
+### Main Template:
+- **Template Name:** Laura
+- **Template URL:** [https://bootstrapmade.com/laura-free-creative-bootstrap-theme/](https://bootstrapmade.com/laura-free-creative-bootstrap-theme/)
+- **Author:** BootstrapMade.com
+- **License:** [https://bootstrapmade.com/license/](https://bootstrapmade.com/license/)
 
-Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
-Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+### Adapted Features from Other Templates:
+- **iPortfolio:** Used for Hero section
+  - **Template URL:** [https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/](https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/)
+- **Folio:** Used for Services section
+  - **Template URL:** [https://bootstrapmade.com/folio-bootstrap-portfolio-template/](https://bootstrapmade.com/folio-bootstrap-portfolio-template/)
 
-Images:
-https://www.hindivichar.in/2023/05/linkedin-cover-photo.html
+### Images:
+- [LinkedIn Cover Photo](https://www.hindivichar.in/2023/05/linkedin-cover-photo.html)
 
+### Icons:
+- [Bootstrap Icons](https://icons.getbootstrap.com/)
 
-Icons:
-https://icons.getbootstrap.com/
-
-Code Sources:
-https://www.w3schools.com/html/
-https://www.w3schools.com/w3css/defaulT.asp
-Referred to Chat GPT for CSS changes.
-
-
+### Code Sources:
+- [W3Schools HTML Tutorial](https://www.w3schools.com/html/)
+- [W3Schools CSS Tutorial](https://www.w3schools.com/css/)
+- Referred to ChatGPT for CSS changes.
