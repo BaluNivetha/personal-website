@@ -8,6 +8,7 @@ Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
 
 Also referred and adapted certain features from other templates - iPortfolio (Hero section) and Folio (Services section)
+
 Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
 Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
 
@@ -19,4 +20,8 @@ Icons:
 https://icons.getbootstrap.com/
 
 Code Sources:
+https://www.w3schools.com/html/
+https://www.w3schools.com/w3css/defaulT.asp
 Referred to Chat GPT for CSS changes.
+
+
